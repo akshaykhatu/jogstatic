@@ -334,9 +334,14 @@ nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:fo
     margin: 25px 0 15px;
 }
 .service_item .btn.know_btn {
-    margin: 20px 0 100px;
+    margin: 20px 0 50px;
 }
-
+.viewMore {
+    text-decoration: underline;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
 /* Portfolio */
 #portfolio {
     background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat scroll 0 0;
