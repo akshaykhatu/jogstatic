@@ -1117,3 +1117,8 @@ footer::after {
   background-color: #02913fc7;
   border-radius: 0;
 }
+
+
+.bannerContainer {
+  display: flex;
+}
