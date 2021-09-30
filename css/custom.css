@@ -225,15 +225,18 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 .attr-nav > ul > li > a:focus {
   color: #02913fc7;
 }
+#carousel {
+  width: 100%;
+}
 /* Carousel */
 .home .carousel {
   position: relative;
-  height: 700px;
+  height: 450px;
   display: inline-block;
 }
 .home .carousel .item img {
   width: 100%;
-  height: 700px;
+  height: 450px;
 }
 /*.carousel-inner > .item > a > img,
 .carousel-inner > .item > img {
@@ -250,7 +253,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 .carousel-caption {
   left: 7%;
   right: 7%;
-  top: 70px;
+  top: 10px;
 }
 .carousel-caption h1 {
   color: #fff;
@@ -364,7 +367,7 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 /* Services */
 #services h2,
 #apartment h2 {
-  margin: 85px 0 50px;
+  margin: 45px 0 50px;
   text-align: center;
 }
 .service_item > h3 {
@@ -1120,5 +1123,18 @@ footer::after {
 
 
 .bannerContainer {
-  display: flex;
+  /* display: flex; */
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #02913fc7;
+  outline: 1px solid slategrey;
 }
