@@ -384,12 +384,12 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 }
 /* Portfolio */
 #portfolio {
-  background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat
-    scroll 0 0;
+  /* background: rgba(0, 0, 0, 0) url("../images/portfolio_bg.jpg") no-repeat
+    scroll 0 0; */
   background-size: cover;
   position: relative;
   padding-bottom: 102px;
-  border-bottom: 2px solid #02913fc7;
+  /* border-bottom: 2px solid #02913fc7; */
 }
 #portfolio::before {
   position: absolute;
@@ -397,16 +397,19 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
   height: 100%;
   width: 100%;
   /* background: rgba(255,203,15,0.85); */
-  background-color: #02913fc7;
+  /* background-color: #02913fc7; */
   top: 0;
   left: 0;
 }
 .portfolio_area {
   position: relative;
-  color: #fff;
+  /* color: #fff; */
+  /* color: #ccc; */
+
 }
 .portfolio_area h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: #000;
   margin: 65px 0 34px;
 }
 /* Portfolio filters */
@@ -425,9 +428,11 @@ nav.navbar.bootsnav ul.nav > li > a:focus {
 #filters > button:hover {
   border: 1px solid #282828;
   color: #282828;
+  /* color: #fff; */
 }
 #filters > button.is-checked {
   background: #282828;
+  color: #fff;
 }
 #filters > button.is-checked:hover {
   color: #fff;

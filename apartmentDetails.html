@@ -168,8 +168,8 @@
 
         .faq .panel-default>.panel-heading {
             color: #fff;
-            background-color: #02913ff2;
-            border-color: #02913ff2;
+            background-color: #222533;
+            border-color: #222533;
         }
 
         .item .pillar-hover {
@@ -306,7 +306,7 @@
         }
 
         #accordion .panel-heading {
-            background: transparent;
+            /* background: transparent; */
         }
 
         #accordion .panel-body {
@@ -314,7 +314,7 @@
         }
 
         .portfolio_area {
-            padding-left: 0;
+            padding-left: 12px;
         }
 
         .grid-wrap {
@@ -337,7 +337,7 @@
         }
 
         .list-block figure:after {
-            background: #02913fc7;
+            background: #222533;
             width: 100%;
             height: 100%;
             position: absolute;
@@ -431,6 +431,19 @@
             font-weight: 700;
             /* opacity: 1; */
         }
+
+        .know_more {
+            font-size: 16px;
+            width: 100%;
+            border: 0;
+            padding: 8px;
+            /* background-color: #222533; */
+            background-color: #02913fc7;
+            color: #fff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
     </style>
 </head>
 
@@ -1086,9 +1099,9 @@
                                 <li>Starting <span>₹ 33 Lacs+</span></li>
                             </ul>
                             </p>
-                            <h2><button>More</button></h2>
-
+                            <h2><button>Inquire</button></h2>
                         </figcaption>
+                        <button class="know_more"><strong>know</strong> more</button>
                     </figure>
                 </a>
                 <a class="list-block" href="#inquireForm">
@@ -1102,8 +1115,10 @@
                                 <li>Starting <span>₹ 33 Lacs+</span></li>
                             </ul>
                             </p>
-                            <h2><button>More</button></h2>
+                            <h2><button>Inquire</button></h2>
                         </figcaption>
+                        <button class="know_more">know more</button>
+
                     </figure>
                 </a>
                 <a class="list-block" href="#inquireForm">
@@ -1116,9 +1131,14 @@
                                 <li>Starting <span>₹ 33 Lacs+</span></li>
                             </ul>
                             </p>
-                            <h2><button>More</button></h2>
+                            <h2><button>Inquire</button></h2>
+
                         </figcaption>
+
+                        <button class="know_more">know more</button>
                     </figure>
+
+
                 </a>
             </div>
             <!-- <div class="text-right viewMore"><a href="/projects.html">View All Projects</a></div> -->
@@ -1281,6 +1301,7 @@
         <script src="js/jquery.scrollUp.min.js"></script>
 
         <script src="js/main.js"></script>
+        <!-- https://codepen.io/nikhil8krishnan/pen/LrKrPm -->
 </body>
 
 </html>
