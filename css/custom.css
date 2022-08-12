@@ -194,15 +194,17 @@ footer a,
 }
 /* Main Nav */
 nav.navbar.bootsnav {
-  background: #222533 none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   border: 0 none;
 }
 nav.navbar.bootsnav ul.nav > li > a {
-  color: #fff;
+ /* color: #fff;  */
+  color: black;
 }
 nav.navbar.bootsnav ul.nav > li > a:hover,
 nav.navbar.bootsnav ul.nav > li > a:focus {
-  color: #aaa;
+  /* color: #aaa; */
+  color: #02913f;
 }
 .navbar-brand {
   height: auto;
